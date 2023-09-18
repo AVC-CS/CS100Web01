@@ -1,0 +1,30 @@
+p {
+  font-family: sans-serif;
+  color: LightGray;
+}
+
+.box {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+}
+
+.box--absolute {
+  position: absolute;
+  background-color: Pink;
+  left: 100px;
+}
+
+.box--fixed {
+  position: fixed;
+  background-color: SandyBrown;
+  left: 500px;
+}
+body {
+  min-height: 5000px;
+}
